@@ -1,6 +1,7 @@
-#  x^n = 2^3
 
-# def power_ofnum(x,n):
+# TODO: x^n = 2^3
+
+#  def power_ofnum(x,n):
 #     if n == 0:
 #         return 1
 #     else:
@@ -8,7 +9,7 @@
 
 # print(power_ofnum(2,3))
 
-# Time Limit Exceeded
+# ? Time Limit Exceeded
 
 def power_ofnum(x,n):
     if n == 0:

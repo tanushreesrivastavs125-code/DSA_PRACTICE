@@ -1,4 +1,5 @@
-# arr = [1,2,3,4]
+
+# TODO: arr = [1,2,3,4]
 def sum_arr(arr):
     if len(arr) == 0:
         return 0
