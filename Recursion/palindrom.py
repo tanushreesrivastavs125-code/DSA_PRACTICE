@@ -1,5 +1,5 @@
 
-# TODO: wow , mam , dad , madam
+# TODO: wow , mam , dad , madam check if palindrom
 
 #  def palindrom(name):
 #     if len(name) == 0:
