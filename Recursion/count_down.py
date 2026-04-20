@@ -1,6 +1,6 @@
 def count_down(n):
     if(n==0):
-        return
+        return 
     else:
         print(n)
         count_down(n-1)

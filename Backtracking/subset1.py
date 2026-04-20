@@ -1,9 +1,20 @@
-def subsets(arr,ans=[],i=0):
-    if i == len(arr):
-        ans.append(arr[i])
-        return ans
-    subsets(arr,ans,i+1)
-    ans.pop()
-    subsets(arr,ans,i+1)
+# result =[]
+# nums = [1,2,3]
 
-print(subsets([1,2,3]))
+def subsets(nums):
+    result = []
+
+    def backtrack(index, current):
+        result.append(current[:])
+
+        for i in range(index, len(nums)):
+            current.append(nums[i])
+
+            backtrack(i + 1, current)
+
+            current.pop()
+
+    backtrack(0, [])
+    return result
+
+print(subsets([1,2,3,4]))
