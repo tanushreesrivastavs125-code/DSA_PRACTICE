@@ -18,7 +18,7 @@
 # print(palindrom("tanu"))
 # print(palindrom("wow"))
 
-# ? ISS ME MENE palindrom VALE RECUSION KA USE HI  NAHI KIYA
+# ? ISS ME MENE palindrom WALE RECUSION KA USE HI  NAHI KIYA
 
 def palindrom(name):
     if len(name) <= 1:
